@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    width: 88%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{box-shadow:inset 0 0 5px grey;border-radius:8px}::-webkit-scrollbar-thumb{background:grey;border-radius:8px}::-webkit-scrollbar-thumb:hover{background:#4a4545}
+.local-a {
+    font-size: 21px;
+    padding: 7px 0px;
+    margin-right: 15px;
+}
+.background {
+    background: rgba(8, 7, 8, 0.7) url("https://wallpaperaccess.com/full/1267581.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.firstSection {
+    height: 100vh;
+}
+.firstSectoin-image{
+    width: 150px;
+    border-radius: 5%;
+}
+.box-main {
+    max-width: 50%;
+    margin: 50px auto;
+}
+.first-smcontent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-smcontent .bgPara {
+    font-size: 31px;
+    color: rgb(9 245 245);
+    padding: 3px 0px;
+    margin: 2px 4px;
+    text-align: center;
+}
+.first-smcontent .smPara {
+    font-size: 17px;
+    padding: 7px 0px;
+    margin: 1px 2px;
+    color: rgb(149 127 236);
+    text-align: center;
+}
+.buttons-btn2 {
+    margin-left: 17px;
+}
+/* secondSectio Start Here */
+.secondSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.second-box1 {
+    max-width: 55%;
+}
+.secondSection-bgPara {
+    color: rgb(35 70 90);
+    font-family: 'Titillium Web', sans-serif;
+}
+.secondSection-smPara {
+    font-family: 'Inter', sans-serif;
+    transition: all .5s;
+}
+.laptop-imG {
+    width: 150px;
+    margin-left: 150px;
+    border-radius: 14px;
+    transition: all .5s;
+}
+.left-image {
+    width: 150px;
+    transition: all .5s;
+    border-radius: 14px;
+    margin-right: 150px;
+}
+/* CONTACK SECTION START */
+.contackSection {
+    width: 75%;
+    margin: auto;
+    padding: 6%;
+}
+.contack-heading {
+    text-align: center;
+    padding-top: 60px;
+}
+@media only screen and (max-width: 845px) {
+    .secondSection {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .second-box1 {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .secondSection-bgPara{
+        text-align: center;
+    }
+    .box-main {
+        max-width: 90%;
+    }
+    .laptop-imG {
+        margin: 10px 0px;
+    }
+    .left-image{
+        margin: 10px 0px;
+    }
+    .true{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .firstSectoin-image{
+        width: 100px;
+        border-radius: 5%;
+    }
+}
+@media only screen and (max-width: 286px) {
+    .first-smcontent .bgPara {
+        font-size: 20px;
+    }
+}
